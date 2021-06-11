@@ -24,6 +24,8 @@ const playSound=(evt)=> {
     audio.play();
 }
 
+
+
 const combine = (evt) => {
     playSound(evt);
     animate(evt)
